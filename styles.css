@@ -21,6 +21,7 @@
 
 body {
     background-color: var(--dark-grey);
+    font-family: sans-serif;
 }
 
 .title {
@@ -54,9 +55,8 @@ body {
     width: 100px;
     color: var(--dark-grey);
     background-color: var(--gold);
-    background-image: linear-gradient(var(--golden-yellow), var(--orange));
-    border-color: var(--gold);
-    border-width: 3px;
+    border: none;
+    padding: 5px;
 }
 
 .btn:hover {

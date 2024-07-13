@@ -181,4 +181,4 @@ cartBtn.addEventListener("click", () => {
     cartContainer.style.display = isCartShowing ? "block" : "none";
 });
 
-clearCartBtn.alert("click", cart.clearCart.bind(cart));
+clearCartBtn.addEventListener("click", cart.clearCart.bind(cart));
